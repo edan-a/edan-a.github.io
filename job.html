@@ -36,6 +36,26 @@ Select Location:
 Select Position:
 -select all-
 </select>
+	 
+<script>
+    function validateForm() {
+     var x = document.forms["myform"]["fname"].value;
+     if (x == "") {
+     alert("Name must be filled out");
+     return false;
+  }
+}
+  </script>
+<body>
+  <form name="myform" action="Thankyou.html">
+    <div class="row-tab">
+      <textarea>Enter your comment here:</textarea>
+       </div>
+       <div class="row-tab">
+       
+       <input type="submit" value="Search for Job">
+         </div>
+       
 </form>
 </body>
 
